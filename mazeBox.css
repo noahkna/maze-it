@@ -1,0 +1,88 @@
+canvas{
+    cursor: none;
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /*border:1px solid rgba(84, 84, 102, 0.8)*/
+}
+
+h1 {
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 12px;
+    font-family: Krungthep,sans-serif;
+    color:#808080;
+    /*text-align:center;*/
+}
+
+h2 {
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 10px;
+    font-family: Krungthep,sans-serif;
+    color:#aaaaaa;
+    /*text-align:center;*/
+}
+
+@font-face {
+    font-family: 'Krungthep';
+    src: url("Krungthep.ttf");
+}
+
+#wrap {
+    float:left;
+    width:100%;
+}
+
+#layout01 {
+    float:left;
+    width:100%;
+    position: absolute;
+}
+
+.alles{
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+    position: relative;
+
+
+}
+
+#background{
+    float: left;
+    width: 100%;
+}
+
+#background img{
+
+    float: left;
+    width: 77%;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+
+#layout01 img{
+
+    float: left;
+}
+
+
+html body{
+
+    background-color: #2b2b2b;
+}
+
+
+#play {
+
+    float: left;
+    margin: 0 auto;
+    padding-left: 655px;
+    padding-top: 470px;
+    position: absolute;
+    width: 14%;
+
+}
